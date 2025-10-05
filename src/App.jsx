@@ -16,19 +16,23 @@ import {NetflixGames} from './netflix/NetflixGames'
 import { NavBar } from './components/NavBar'
 import { Error404 } from './netflix/Error404'
 import { Watch } from './netflix/Watch'
+import { User } from './components/User'
 //import './App.css'
 
 function App() {
 
+  var title = "React"
+
   return (
     <div>
-      <NavBar></NavBar>
+      <NavBar title = {title} ></NavBar>
       <Routes>
         <Route path='/home' element={<NetflixHome />}></Route>
         <Route path='/movies' element={<NetflixMovies />}></Route>
         <Route path='/shows' element={<NetflixShows />}></Route>
         <Route path='/games' element={<NetflixGames />}></Route>
         <Route path='/watch/:name' element={<Watch />}></Route>
+        <Route path='/users' element={<User />}></Route>
         <Route path='/*' element={<Error404 />}></Route>
       </Routes>
 
