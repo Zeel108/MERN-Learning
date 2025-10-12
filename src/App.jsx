@@ -17,6 +17,8 @@ import { NavBar } from './components/NavBar'
 import { Error404 } from './netflix/Error404'
 import { Watch } from './netflix/Watch'
 import { User } from './components/User'
+import { Employee } from './components/Employee'
+import { Student } from './components/Student'
 //import './App.css'
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
         <Route path='/games' element={<NetflixGames />}></Route>
         <Route path='/watch/:name' element={<Watch />}></Route>
         <Route path='/users' element={<User />}></Route>
+        <Route path='/employee' element={<Employee />}></Route>
+        <Route path='/student'element={<Student />}></Route>
         <Route path='/*' element={<Error404 />}></Route>
       </Routes>
 

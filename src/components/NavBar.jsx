@@ -1,13 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export const NavBar = (props) => {
+export const NavBar = () => {
 
-  console.log("prop",props)
+  
   return (
     <div>
-            <div>{props.title}</div>
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <Link to='/home' className="navbar-brand">Netflix</Link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +27,12 @@ export const NavBar = (props) => {
       </li>
       <li class="nav-item">
         <Link to='/users' className="nav-link">Users</Link>
+      </li>
+      <li class="nav-item">
+        <Link to='/employee' className="nav-link">Employees</Link>
+      </li>
+      <li class="nav-item">
+        <Link to='/student' className="nav-link">Student</Link>
       </li>
 
     </ul>
