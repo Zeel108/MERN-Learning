@@ -19,6 +19,7 @@ import { Watch } from './netflix/Watch'
 import { User } from './components/User'
 import { Employee } from './components/Employee'
 import { Student } from './components/Student'
+import { Books } from './components/Books'
 //import './App.css'
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path='/users' element={<User />}></Route>
         <Route path='/employee' element={<Employee />}></Route>
         <Route path='/student'element={<Student />}></Route>
+        <Route path='/book' element={<Books />}></Route>
         <Route path='/*' element={<Error404 />}></Route>
       </Routes>
 
