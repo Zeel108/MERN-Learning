@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { MyButton } from '../components/MyButton'
+import { MyButton } from '../common/MyButton'
 
 export const NetflixShows = () => {
 

@@ -20,6 +20,8 @@ import { User } from './components/User'
 import { Employee } from './components/Employee'
 import { Student } from './components/Student'
 import { Books } from './components/Books'
+import { Tableimpl } from './components/Tableimpl'
+import { InputDemo1 } from './components/InputDemo1'
 //import './App.css'
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
     <div>
       <NavBar title = {title} ></NavBar>
       <Routes>
+        <Route path='/' element={<NetflixHome />}></Route>
         <Route path='/home' element={<NetflixHome />}></Route>
         <Route path='/movies' element={<NetflixMovies />}></Route>
         <Route path='/shows' element={<NetflixShows />}></Route>
@@ -39,6 +42,7 @@ function App() {
         <Route path='/employee' element={<Employee />}></Route>
         <Route path='/student'element={<Student />}></Route>
         <Route path='/book' element={<Books />}></Route>
+        <Route path='/tableimpl' element={<Tableimpl />}></Route>
         <Route path='/*' element={<Error404 />}></Route>
       </Routes>
 
