@@ -38,6 +38,9 @@ export const NavBar = () => {
       <li class="nav-item">
         <Link to='/tableimpl' className="nav-link">Table</Link>
       </li>
+      <li class="nav-item">
+        <Link to='/formdemo1' className="nav-link">Form Demo</Link>
+      </li>
     </ul>
   </div>
 </nav>

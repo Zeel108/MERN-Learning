@@ -22,6 +22,7 @@ import { Student } from './components/Student'
 import { Books } from './components/Books'
 import { Tableimpl } from './components/Tableimpl'
 import { InputDemo1 } from './components/InputDemo1'
+import { FormDemo1 } from './forms/FormDemo1'
 //import './App.css'
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path='/book' element={<Books />}></Route>
         <Route path='/tableimpl' element={<Tableimpl />}></Route>
         <Route path='/*' element={<Error404 />}></Route>
+        <Route path='/formdemo1' element={<FormDemo1 />}></Route>
       </Routes>
 
     </div>
