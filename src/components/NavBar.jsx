@@ -41,6 +41,30 @@ export const NavBar = () => {
       <li class="nav-item">
         <Link to='/formdemo1' className="nav-link">Form Demo</Link>
       </li>
+      <li class="nav-item">
+        <Link to='/formdemo2' className="nav-link">Form 2</Link>
+      </li>
+      <li class="nav-item">
+        <Link to='/formdemo3' className="nav-link">Form 3</Link>
+      </li>
+      <li class="nav-item">
+        <Link to='/formdemo4' className="nav-link">Form 4</Link>
+      </li>
+      <li class="nav-item">
+        <Link to='/formdemo5' className="nav-link">Form 5</Link>
+      </li>
+      <li class="nav-item">
+        <Link to='/apidemo1' className="nav-link">api 1</Link>
+      </li>
+      
+      <li class="nav-item">
+        <Link to='/apidemo2' className="nav-link">API 2</Link>
+      </li>
+
+      <li class="nav-item">
+        <Link to='/memodemo1' className="nav-link">Memo demo 1</Link>
+      </li>
+      
     </ul>
   </div>
 </nav>

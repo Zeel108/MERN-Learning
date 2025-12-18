@@ -23,6 +23,13 @@ import { Books } from './components/Books'
 import { Tableimpl } from './components/Tableimpl'
 import { InputDemo1 } from './components/InputDemo1'
 import { FormDemo1 } from './forms/FormDemo1'
+import { FormDemo2 } from './forms/FormDemo2'
+import { FormDemo3 } from './forms/FormDemo3'
+import { FormDemo5 } from './forms/FormDemo5'
+import { FormDemo4 } from './forms/FormDemo4'
+import { ApiDemo1 } from './api/ApiDemo1'
+import { ApiDemo2 } from './api/ApiDemo2'
+import { UseMemoDemo1 } from './components/UseMemoDemo1'
 //import './App.css'
 
 function App() {
@@ -46,6 +53,13 @@ function App() {
         <Route path='/tableimpl' element={<Tableimpl />}></Route>
         <Route path='/*' element={<Error404 />}></Route>
         <Route path='/formdemo1' element={<FormDemo1 />}></Route>
+        <Route path='/formdemo2' element={<FormDemo2 />}></Route>
+        <Route path='/formdemo3' element={<FormDemo3 />}></Route>
+        <Route path='/formdemo4' element={<FormDemo4 />}></Route>
+        <Route path='/formdemo5' element={<FormDemo5 />}></Route>
+        <Route path='/apidemo1' element={<ApiDemo1 />}></Route>
+        <Route path='/apidemo2' element={<ApiDemo2 />}></Route>
+        <Route path='/memodemo1' element={<UseMemoDemo1 />}></Route>
       </Routes>
 
     </div>
